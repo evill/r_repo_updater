@@ -1,0 +1,29 @@
+{
+  "name": "r_repo_updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npx babel-node --presets @babel/preset-env -- ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evill/r_repo_updater.git"
+  },
+  "author": "Ihor Tretiakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evill/r_repo_updater/issues"
+  },
+  "homepage": "https://github.com/evill/r_repo_updater#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "bitbucket": "^2.4.1",
+    "simple-git": "^2.17.0"
+  }
+}

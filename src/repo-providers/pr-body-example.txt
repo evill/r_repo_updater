@@ -1,0 +1,90 @@
+{
+  rendered: {
+    description: { raw: '', markup: 'markdown', html: '', type: 'rendered' },
+    title: {
+      raw: 'Upgrade package express to version express',
+      markup: 'markdown',
+      html: '<p>Upgrade package express to version express</p>',
+      type: 'rendered'
+    }
+  },
+  type: 'pullrequest',
+  description: '',
+  links: {
+    decline: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/decline'
+    },
+    diffstat: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/diffstat/evill/redoc-test:534acc5f5b83%0D7750e0718832?from_pullrequest_id=3'
+    },
+    commits: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/commits'
+    },
+    self: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3'
+    },
+    comments: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/comments'
+    },
+    merge: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/merge'
+    },
+    html: { href: 'https://bitbucket.org/evill/redoc-test/pull-requests/3' },
+    activity: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/activity'
+    },
+    diff: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/diff/evill/redoc-test:534acc5f5b83%0D7750e0718832?from_pullrequest_id=3'
+    },
+    approve: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/approve'
+    },
+    statuses: {
+      href: 'https://api.bitbucket.org/2.0/repositories/evill/redoc-test/pullrequests/3/statuses'
+    }
+  },
+  title: 'Upgrade package express to version express',
+  close_source_branch: false,
+  reviewers: [],
+  id: 3,
+  destination: {
+    commit: { hash: '7750e0718832', type: 'commit', links: [Object] },
+    repository: {
+      links: [Object],
+      type: 'repository',
+      name: 'redoc-test',
+      full_name: 'evill/redoc-test',
+      uuid: '{2a405cf0-8c3a-4af0-a925-29c2f09dfba1}'
+    },
+    branch: { name: 'master' }
+  },
+  created_on: '2020-08-11T14:18:40.173502+00:00',
+  summary: { raw: '', markup: 'markdown', html: '', type: 'rendered' },
+  source: {
+    commit: { hash: '534acc5f5b83', type: 'commit', links: [Object] },
+    repository: {
+      links: [Object],
+      type: 'repository',
+      name: 'redoc-test',
+      full_name: 'evill/redoc-test',
+      uuid: '{2a405cf0-8c3a-4af0-a925-29c2f09dfba1}'
+    },
+    branch: { name: '1597155514527' }
+  },
+  comment_count: 0,
+  state: 'OPEN',
+  task_count: 0,
+  participants: [],
+  reason: '',
+  updated_on: '2020-08-11T14:18:40.258511+00:00',
+  author: {
+    display_name: 'Ihor Tretiakov',
+    uuid: '{ee8e3afe-72b8-4339-aec8-2e3d139d084c}',
+    links: { self: [Object], html: [Object], avatar: [Object] },
+    nickname: 'evill',
+    type: 'user',
+    account_id: '557058:b26b0db2-633e-417c-9dfd-2108bc37622e'
+  },
+  merge_commit: null,
+  closed_by: null
+}
