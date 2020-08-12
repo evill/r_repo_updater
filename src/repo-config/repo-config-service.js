@@ -7,7 +7,12 @@ export class RepoConfigService {
             type: GIT_REPO_TYPE,
             credentials: {
                 user: process.env.GIT_USER, // Bitbucket user name
-                password: process.env.GIT_PASS// Bitbucket application password
+                password: process.env.GIT_PASS // Bitbucket application password
+            },
+            // settings for git config to perform commit
+            comitter: {
+                name: "",
+                email: ""
             }
         }
     }
